@@ -20,7 +20,14 @@ char_pointer = char_pointer + 1;
 }
 
 /*output:
-pointer_types2.c: In function `main':
-pointer_types2.c:12: warning: assignment from incompatible pointer type
-pointer_types2.c:13: warning: assignment from incompatible pointer type
+[integer pointer] points to 0xbffff810, which contains the char 'a'
+[integer pointer] points to 0xbffff814, which contains the char 'e'
+[integer pointer] points to 0xbffff818, which contains the char '8'
+[integer pointer] points to 0xbffff81c, which contains the char '
+[integer pointer] points to 0xbffff820, which contains the char '?'
+[char pointer] points to 0xbffff7f0, which contains the integer 1
+[char pointer] points to 0xbffff7f1, which contains the integer 0
+[char pointer] points to 0xbffff7f2, which contains the integer 0
+[char pointer] points to 0xbffff7f3, which contains the integer 0
+[char pointer] points to 0xbffff7f4, which contains the integer 2
 */
